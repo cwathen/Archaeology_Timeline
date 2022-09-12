@@ -1,2 +1,0 @@
-# Kappa
-Figures for Kappa
