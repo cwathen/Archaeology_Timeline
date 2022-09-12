@@ -1,6 +1,4 @@
-# Kappa
-
-#timeline of items occuring between two chronological periods and two different sites.
+# Kappa / timeline of events occuring between two chronological periods and two different sites.
 
 library(vistime)
 
