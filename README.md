@@ -1,6 +1,7 @@
 # Kappa
 
 #timeline of items occuring between two chronological periods and two different sites.
+
 library(vistime)
 
 #using the text of event, etc. will let you edit it to your specific dates. This library requires a month and date so if you are like me and care only about years, then you can use 01-01. 
@@ -19,7 +20,9 @@ data <- read.csv(text="event,group,start,end
  Pagan burial ceases,Västerhus,1025-01-01,1050-01-01")
 
 #If you want it to aligned with no event labels use this one
+
 gg_vistime(data, optimize_y = TRUE, show_labels = FALSE) 
 
 #If you want the event labels but it won't be aligned
+
 gg_vistime(data, optimize_y = FALSE)
