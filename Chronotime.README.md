@@ -1,8 +1,16 @@
 # Kappa / timeline of events occuring between two chronological periods and two different sites.
 
+# This can be applied to any timeline and it does not matter how large or small. It's applications are not only for archaeology but can be used to create work schedules etc. 
+#use this library to start off
 library(vistime)
 
 #using the text of event, etc. will let you edit it to your specific dates. This library requires a month and date so if you are like me and care only about years, then you can use 01-01. 
+
+#Event = Chronological age 
+#Group = how you want to group the years together, for instance, by site, by geographical area, etc.
+#Start = the start date (YEAR-MONTH-DATE), use 01-01 if month-date are unknown or unspecified
+#End = the end date (YEAR-MONTH-DATE), use 01-01 if month-date are unknown or unspecified
+
 
 data <- read.csv(text="event,group,start,end
  Viking Age,Chronology,0800-01-01,1050-01-01
