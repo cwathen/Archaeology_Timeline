@@ -1,7 +1,10 @@
 # Kappa / timeline of events occuring between two chronological periods and two different sites.
 
 # This can be applied to any timeline and it does not matter how large or small. It's applications are not only for archaeology but can be used to create work schedules etc. 
+
+
 #use this library to start off
+
 library(vistime)
 
 #using the text of event, etc. will let you edit it to your specific dates. This library requires a month and date so if you are like me and care only about years, then you can use 01-01. 
